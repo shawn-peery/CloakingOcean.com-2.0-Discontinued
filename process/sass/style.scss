@@ -1,10 +1,34 @@
 @import 'variables';
 
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+
+$xs: 0;
+$sm: 544;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+body {
+    background-color: $color-backgrounds;
+}
 
 p {
     color: $main;
 }
 
-body {
-    background-color: $color-backgrounds;
+.logo {
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 25px;
+    width: 50px;
+
+    @media (max-width: 575px) {
+        display: none;
+    }
+}
+
+.navbar-nav a {
+    text-align: center;
 }
