@@ -1,0 +1,25 @@
+header {
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up(sm) {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+.logo {
+    display: none;
+    @include media-breakpoint-up(sm) {
+        display: inline-block;
+        background-color: white;
+        padding: 5px 5px;
+        border-radius: 25px;
+        width: 50px;
+    }
+}
+
+.navbar-nav a {
+    text-align: center;
+}

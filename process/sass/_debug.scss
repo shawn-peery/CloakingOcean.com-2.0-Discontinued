@@ -1,0 +1,24 @@
+#breakpoint {
+    @include media-breakpoint-down(sm) { //Xtra Small
+        background-color: green;
+        .sm, .md, .lg, .xl {
+            display:none;
+        }
+    }
+
+    @include media-breakpoint-up(sm) { //Small
+        background-color: blue;
+    }
+
+    @include media-breakpoint-up(md) { //Medium
+        background-color: orange;
+    }
+
+    @include media-breakpoint-up(lg) { //Large
+        background-color: pink;
+    }
+
+    @include media-breakpoint-up(xl) { //Xtra Large
+        background-color: purple;
+    }
+}
