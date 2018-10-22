@@ -5,10 +5,10 @@
 @import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
 
 $xs: 0;
-$sm: 544;
+$sm: 576;
 $md: 768px;
 $lg: 992px;
-$xl: 1200px;
+$xl: 1280px;
 
 body {
     background-color: $color-backgrounds;
@@ -19,13 +19,13 @@ p {
 }
 
 .logo {
-    background-color: white;
-    padding: 5px 5px;
-    border-radius: 25px;
-    width: 50px;
-
-    @media (max-width: 575px) {
-        display: none;
+    display: none;
+    @include media-breakpoint-up(sm) {
+        display: inline-block;
+        background-color: white;
+        padding: 5px 5px;
+        border-radius: 25px;
+        width: 50px;
     }
 }
 
