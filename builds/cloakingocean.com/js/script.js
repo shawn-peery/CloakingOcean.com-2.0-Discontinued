@@ -1,3 +1,5 @@
+// Writes the header for a given page
+
 var links = [
     {url: "../index.html", name: "Home"},
     {url: "../java.html", name: "Java"},
@@ -46,3 +48,15 @@ function addLinksForEachPage() {
     }
     return $string;
 }
+
+// On Hover Add Active Class to Navbar Elements
+
+$(".navbar a").on({
+    mouseover: function(ev) {
+        $(ev.target).addClass("active");
+    },
+
+    mouseout: function(ev) {
+        $(ev.target).removeClass("active");
+    }
+});
