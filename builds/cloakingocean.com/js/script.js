@@ -15,7 +15,7 @@ writeHeader();
 
 function writeHeader() {
     let $headerString = "" +
-    "<nav class='navbar bg-dark navbar-dark navbar-expand-sm'>" +
+    "<nav class='navbar bg-dark navbar-dark navbar-expand'>" +
         "<div class='container-fluid'>" +
             "<div class='navbar-header'>" +
                 "<a href='index.html'><img class='logo navbar-brand' src='images/logo/logo-white.svg'></a>" +
