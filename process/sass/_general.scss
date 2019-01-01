@@ -7,6 +7,17 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Chakra Petch', sans-serif;
 }
 
+h1 {
+    @extend col-2;
+    @extend offset-5;
+    @extend rounded;
+    @extend text-center;
+
+    background-color: $accents;
+    display: inline-block;
+    padding: 0.25rem
+}
+
 h2 {
     margin-bottom: 16px;
     text-align: center;
