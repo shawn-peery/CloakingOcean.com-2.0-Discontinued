@@ -8,11 +8,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    @extend col-2;
-    @extend offset-5;
-    @extend rounded;
-    @extend text-center;
-
+    margin: 0 auto 1rem auto;
     background-color: $accents;
     display: inline-block;
     padding: 0.25rem
