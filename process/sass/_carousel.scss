@@ -22,7 +22,9 @@ $next-icon-bg:     str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns
     border-color: $dark; //equivalent of bg-dark from bootstrap preprocessed classes
     margin: auto;
     margin-bottom: 1rem;
-    @include media-breakpoint-up(sm) {
-        width: 57vw;
-    }
+    // @include media-breakpoint-up(sm) {
+    //     width: 57vw;
+    // }
+
+    
 }
