@@ -9,9 +9,7 @@ var links = [
     {url: "../music", name: "Music"},
 ];
 
-var currentIndex = $("header").data("id");
-
-writeHeader();
+var currentIndex = $("header").data("id")
 
 function writeHeader() {
     let $headerString = "" +
@@ -49,6 +47,14 @@ function addLinksForEachPage() {
     return $string;
 }
 
+writeHeader();
+
+function addSpaces($source) {
+    var searchWord = ' ';
+    var regEx = new RegExp("(" + searchWord + ")(?!([^<]+)?>)", "gi");
+    var output = $source.replace(regEx, "&nbsp;");
+}
+
 // On Hover Add Active Class to Navbar Elements
 
 $(".navbar a").on({
@@ -60,3 +66,22 @@ $(".navbar a").on({
         $(ev.target).removeClass("active");
     }
 });
+
+
+//DEBUGGING FUNCTIONS
+function writeBreakpoint() {
+    let $breakpointString = "" +
+    "<h1 id='breakpoint'>BreakPoint " +
+        "<span class='xs d-sm-none d-md-none d-lg-none d-xl-none'>Extra Small</span>" +
+        "<span class='sm d-sm-inline d-none d-md-none d-lg-none d-xl-none'>Small</span>" +
+        "<span class='md d-md-inline d-none d-sm-none d-lg-none d-xl-none'>Medium</span>" +
+        "<span class='lg d-lg-inline d-none d-sm-none d-md-none d-xl-none'>Large</span>" +
+        "<span class='xl d-xl-inline d-none d-sm-none d-md-none d-l-none'>Extra Large</span>" +
+    "</h1>";
+
+    $(document.body).prepend($breakpointString);
+
+    addSpaces($breakpointString);
+}
+
+writeBreakpoint();
