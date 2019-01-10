@@ -84,4 +84,4 @@ function writeBreakpoint() {
     addSpaces($breakpointString);
 }
 
-writeBreakpoint();
+// writeBreakpoint();
