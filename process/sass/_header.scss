@@ -10,14 +10,11 @@ header {
 }
 
 .logo {
-    display: none;
-    @include media-breakpoint-up(sm) {
-        display: inline-block;
-        background-color: white;
-        padding: 5px 5px;
-        border-radius: 25px;
-        width: 50px;
-    }
+    display: inline-block;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 25px;
+    width: 50px;
 }
 
 .navbar-nav a {
