@@ -20,6 +20,9 @@ h2 {
     margin-bottom: 16px;
     text-align: center;
     background-color: $dark;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 5px #343a40;
 }
 
 h3, h5 {
