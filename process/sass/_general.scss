@@ -46,3 +46,7 @@ section {
 a {
     color: $links;
 }
+
+a:hover {
+    color: $links-hover;
+}
