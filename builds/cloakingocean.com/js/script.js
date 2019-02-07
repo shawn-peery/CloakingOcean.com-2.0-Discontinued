@@ -6,7 +6,7 @@ var links = [
     {url: "../unity.html", name: "Unity"},
     {url: "../web.html", name: "Web"},
     {url: "../gaming.html", name: "Gaming"},
-    {url: "../music", name: "Music"},
+    {url: "../music.html", name: "Music"},
 ];
 
 var currentIndex = $("header").data("id")
