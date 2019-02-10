@@ -1,22 +1,21 @@
-# Sass Essential Training
-This is the repository for my course, Sass Essential Training on Lynda.com.
+# CloakingOcean.com
+CloakingOcean.com is a personal, custom coded portfolio I made for myself, Shawn Whitaker!
+It showcases many different aspects of my life.
 
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage. Or you can simply add `/tree/BRANCH_NAME` to the URL to go to the branch you want to peek at.
+## Java
+I've known Java and the Bukkit API since 2012! I mainly use Java to create Minecraft server
+mods!
 
-1. Make sure you have these installed
-	- [node.js](http://nodejs.org/)
-	- [git](http://git-scm.com/)
-	- [gulp](http://gulpjs.com/)
-	- [ruby](http://gulpjs.com/)
+## Unity
+First introduced to me during my initial Spy Hop session, Unity has become a game engine favorite
+of mine! It's incredible how much it offers while still having a completely free version!
 
-2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/planetoftheweb/sassEssentials.git`
-3. CD to the folder `cd sassEssentials`
-4. Run `> npm-install` to install the project dependencies
-5. Install gulp.js via the Mac terminal or Gitbash on a PC `> npm install -g gulp`
-5. Run the Gulp command `> gulp`
+## Web
+Step by step, I learn HTML, CSS, and JavaScript to improve on my previous website designs!
 
-For more help setting up a comprehensive Gulp.js workflow, check out [Web Project Workflows with Gulp.js, Git, and Browserify](http://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html).
+## Gaming
+Being my favorite pastime, gaming is something I started from a very young age. I've continued
+to increase my skills and understanding in this aspect as well!
 
-## More Stuff
-Check out some of my [other courses on lynda.com](http://lynda.com/rayvillalobos). You can also check out my [youtube channel](http://youtube.com/planetoftheweb), [follow me on twitter](http://twitter.com/planetoftheweb), or read [my blog](http://raybo.org).
+## Music
+With a majority of my life being filled with music, I learn how to perform music using the piano!
