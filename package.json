@@ -7,6 +7,10 @@
     "url": "https://gitlab.com/Cloaking_Ocean/cloakingocean.com"
   },
   "author": "Shawn Whitaker",
+  "scripts": {
+      "start": "gulp",
+      "build": "gulp build"
+  },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.9.0",
