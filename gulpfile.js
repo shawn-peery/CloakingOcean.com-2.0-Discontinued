@@ -31,7 +31,8 @@ gulp.task('webserver', function() {
     gulp.src('builds/cloakingocean.com/')
         .pipe(webserver({
             livereload: true,
-            open: true
+            open: true,
+            port: 8080
         }));
 });
 
