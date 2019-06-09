@@ -1,3 +1,5 @@
+#### **This project is discontinued. Updates and fixes will be focused on the [React enabled version](https://github.com/CloakingOcean/React-CloakingOcean.com) of this project. Besides a few recent tweaking commits, the React version was created from this repository.**
+
 # CloakingOcean.com
 CloakingOcean.com is a personal, custom coded portfolio I made for myself, Shawn Whitaker!
 It showcases many different aspects of my life.
@@ -18,4 +20,4 @@ Being my favorite pastime, gaming is something I started from a very young age. 
 to increase my skills and understanding in this aspect as well!
 
 ## Music
-With a majority of my life being filled with music, I learn how to perform music using the piano!
+With a majority of my life being filled with music, I've learned how to perform music myself by playing the piano!
