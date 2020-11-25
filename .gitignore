@@ -9,6 +9,8 @@ builds/sassEssentials/css/style.css
 *.sass.map
 *.scss.map
 
+.jshintrc
+
 builds
 
 package-lock.json
